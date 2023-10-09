@@ -1,0 +1,113 @@
+*{
+    font-family: Arial;
+    font-size: 15px;
+}
+body{
+    background-color: #EBD373;
+}
+header{
+    padding: 15px;
+}
+main{
+    margin: 10px;
+}
+h2, h3{
+    font-size: 25px;
+    text-align: center;
+}
+.navigation__item{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #51E3EB;
+    color: #E82E2A;
+    display: inline;
+}
+.navigation{
+    margin: 10px;
+}
+.logo{
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.title{
+    text-align: center;
+    margin: 5px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: "Franklin Gothic Heavy";
+}
+.warning{
+    background-color: #E82E2A;
+    padding: 10px;
+    border-radius: 10px;
+}
+.info{
+    border: 5px dotted #EBB53D;
+    padding: 10px;
+}
+.info__item{
+    margin: 5px;
+}
+.formula{
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.offer__item{
+    background-color: white;
+    border-radius: 10px;
+    border: 5px dashed #51E3EB;
+    width: 30%;
+    margin: 10px;
+}
+
+.offer__pict{
+    display: block;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+}
+.offer__name{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #51E3EB;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.offer__link{
+    text-decoration: none;
+    color: #E82E2A;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.offer__description{
+    text-align: center;
+}
+footer{
+    background-color: #EBB53D;
+}
+.contacts{
+    width: 45%;
+    border-radius: 10px;
+    border: solid 2px black;
+}
+.contacts__type{
+    font-weight: bolder;
+}
+.contacts__value{
+    font-style: italic;
+}
+.partners{
+    width: 45%;
+    border-radius: 10px;
+    border: solid 2px black;
+}
