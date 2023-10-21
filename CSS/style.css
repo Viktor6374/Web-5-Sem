@@ -24,6 +24,7 @@ h2, h3{
     background-color: #51E3EB;
     color: #E82E2A;
     display: inline;
+    box-shadow: 7px 7px 15px black;
 }
 .navigation{
     margin: 10px;
@@ -64,6 +65,7 @@ h2, h3{
     border: 5px dashed #51E3EB;
     width: 30%;
     margin: 10px;
+    box-shadow: 7px 7px 15px black;
 }
 
 .offer__pict{
