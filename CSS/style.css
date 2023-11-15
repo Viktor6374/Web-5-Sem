@@ -37,6 +37,7 @@ h2, h3{
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    box-shadow: 5px 5px 7px black;
 }
 .current_navigation__item{
     text-decoration: underline;
@@ -92,6 +93,7 @@ h2, h3{
     border-radius: 10px;
     width: 30%;
     margin: 10px;
+    box-shadow: 7px 7px 15px black;
 }
 
 .offer__pict{
@@ -129,6 +131,7 @@ h2, h3{
     border-radius: 10px;
     margin: 20px;
     border: solid 3px #6e3d2b;
+    box-shadow: 7px 7px 15px black;
 }
 .timetable__title{
     font-weight: bolder;
@@ -160,6 +163,7 @@ footer{
     width: 45%;
     border-radius: 10px;
     border: solid 2px #6e3d2b;
+    box-shadow: 7px 7px 15px black;
 }
 .contacts__type{
     font-weight: bolder;
@@ -172,6 +176,7 @@ footer{
     width: 45%;
     border-radius: 10px;
     border: solid 2px #6e3d2b;
+    box-shadow: 7px 7px 15px black;
 }
 
 @media not screen and (min-width: 800px){
