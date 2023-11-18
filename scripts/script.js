@@ -1,7 +1,4 @@
-function addTimeload() {
-    var loadTime = performance.measure("time-measure").duration;
-    document.getElementsByClassName("timeload")[0].textContent = `Page load time is ${loadTime} seconds`
-}
+
 function addCurrentPointMenu(){
     var buttons = this.document.getElementsByClassName("navigation__item")
     for (var button of buttons){
@@ -10,5 +7,14 @@ function addCurrentPointMenu(){
         }
     }
 }
-window.addEventListener('load', addTimeload);
+
+( function () {
+   function addTimeload() {
+        var loadTime = performance.measure("time-measure").duration;
+        document.getElementsByClassName("timeload")[0].textContent = `Page load time is ${loadTime} seconds`
+    }
+
+    window.addEventListener('load', addTimeload);
+}());
+
 window.addEventListener('load', addCurrentPointMenu);
