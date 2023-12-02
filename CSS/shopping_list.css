@@ -1,0 +1,22 @@
+.shopping-list__timetable{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+    text-align: center;
+}
+.shopping-list__title{
+    font-size: 20px;
+}
+#shopping-list{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 20px;
+    text-align: center;
+}
+input[type = text], input[type = number], button{
+    -webkit-border-radius: 3px;
+    background: linear-gradient(90deg, #ffec01, #ffa901);
+    font-family: Arial;
+    font-size: 15px;
+    color: #6e3d2b;
+}

@@ -7,7 +7,9 @@
     <meta name="description" content="Лучший в мире супермаркет">
     <meta name="author" content="Viktor Subbotin">
     <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/shopping_list.css" rel="stylesheet">
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/shopping_list.js"></script>
 </head>
 <body>
 <header>
@@ -26,8 +28,37 @@
     <p class="warning"><strong>Внимание!</strong> В следующем месяце наш сайт переезжает на новый адрес <i>https://new_address</i></p>
     <article>
         <section class="info">
-            <h2>О нас</h2>
-            <p>Много полезной и крайне нескучной информации о компании</p>
+            <div class="shopping-list">
+                <h2>Список покупок</h2>
+                <div class="shopping-list__timetable">
+                    <div class="shopping-list__title">Название</div>
+                    <div class="shopping-list__title">Количество</div>
+                    <div class="shopping-list__title">Отдел магазина</div>
+                </div>
+                <h3>Добавить:</h3>
+                <div class="form-container">
+                    <form id="shopping-list" onsubmit="add_shopping_list_item(event)">
+                        <div class="form-container__item">
+                            <label for="product">Название</label>
+                            <input type="text" name="product" id="product" form="shopping-list">
+                        </div>
+                        <div class="form-container__item">
+                            <label for="quantity">Количество</label>
+                            <input type="number" name="quantity" id="quantity" form="shopping-list">
+                        </div>
+                        <div class="form-container__item">
+                            <label for="store_department">Отдел магазина</label>
+                            <input type="text" name="store_department" id="store_department" form="shopping-list">
+                        </div>
+                        <div class="form-container__item">
+                            <button type="submit">Добавить</button>
+                        </div>
+                        <div class="form-container__item">
+                            <button type="button" onclick="clear_list()">Очистить список</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </article>
     <h2 class="offer__header">Предложения дня!</h2>
